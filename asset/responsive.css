@@ -23,6 +23,9 @@
         height: 50px;
         width: 20%;
     }
+    .recovery-form-cont{
+        margin-left: -10%;
+    }
 }
 @media screen and (max-width:988px){
     .leftStripe{
@@ -49,17 +52,18 @@
     }
 
 }
-@media screen and (max-width:931px){
-    .leftStripe{
-        top: 275px;
-        left: calc(-55% + 460px);
-    }
-}
+
 @media screen and (max-width:931px){
     .leftStripe{
         top: 275px;
         left: calc(-55% + 460px);
         height: 35px;
+    }
+    #fullname input{
+        width:35% ;
+    } 
+    #dob input, #tax input{
+        width: 30%;
     }
 }
 @media screen and (max-width:904px){
@@ -69,6 +73,11 @@
     .leftStripe{
         top: 270px;
         left: calc(-55% + 460px);
+    }
+}
+@media screen and (max-width:875px) {
+    .recovery-form-cont{
+        margin-left: -20%;
     }
 }
 @media screen and (max-width:885px){
@@ -103,6 +112,12 @@
         background-color: #fff;
         margin-top: -2px;
     }
+    #last-login input{
+        width: 40%;
+    }
+    #atm input{
+        width: 45%;
+    }
 }
 @media screen and (max-width:760px){
     .leftStripe{
@@ -114,6 +129,18 @@
     .leftStripe{
         top: 255px;
 
+    }
+    #last-login input{
+        width: 45%;
+    }
+    #atm input{
+        width: 50%;
+    }
+    #fullname input{
+        width:40% ;
+    } 
+    #dob input, #tax input{
+        width: 35%;
     }
 }
 @media screen and (max-width:767px) {
@@ -128,6 +155,12 @@
         width: 90%;
     }
 }
+@media screen and (max-width:718px) {
+    .recovery-form-cont{
+        width: 60%;
+        margin-left: 0  ;
+    }
+}
 @media screen and (max-width:716px){
     .leftStripe{
         top: 250px;
@@ -139,6 +172,18 @@
         top: 250px;
         left: calc(-80% + 460px);
     }
+    #last-login input{
+        width: 50%;
+    }
+    #atm input{
+        width: 55%;
+    }
+    #fullname input{
+        width:45% ;
+    } 
+    #dob input, #tax input{
+        width: 40%;
+    }
 }
 @media screen and (max-width:599px){
     .leftStripe{
@@ -147,6 +192,10 @@
 }
 @media screen and (max-width:591px) {
     form, .form-cont, .img{
+        width: 70%;
+    }
+    .recovery-form-cont{
+        margin-left: 0%;
         width: 70%;
     }
 }
@@ -180,11 +229,43 @@
     form, .form-cont, .img{
         width: 80%;
     }
+    #last-login input{
+        width: 55%;
+    }
+    #atm input{
+        width: 60%;
+    }
+    #ba input, #ba #select1, #ba #select2{
+        width: 65%;
+    }
+    .recovery-form-cont{
+        width: 80%;
+        margin-left: 0;
+    }
+    #des1{
+        font-size: 13px;
+        line-height: 1.2;
+    }
 }
 @media screen and (max-width:469px){
     .leftStripe{
         top: 230px;
         left: calc(-110% + 460px);
+    }
+    #last-login input{
+        width: 58%;
+    }
+    #atm input{
+        width: 63%;
+    }
+    #ba input, #ba #select1, #ba #select2{
+        width: 68%;
+    }
+    #fullname input{
+        width:50% ;
+    } 
+    #dob input, #tax input{
+        width: 45%;
     }
 }
 @media screen and (max-width:415px) {
@@ -194,6 +275,10 @@
     .leftStripe{
         top: 230px;
         left: calc(-120% + 460px);
+    }
+    .recovery-form-cont{
+        width: 90%;
+        margin-left: 0;
     }
 }
 @media screen and (max-width:385px){
@@ -211,10 +296,25 @@
         top: 230px;
         left: calc(-140% + 460px);
     }
+    #last-login input{
+        width: 63%;
+    }
+    #atm input{
+        width: 68%;
+    }
+    #ba input, #ba #select1, #ba #select2{
+        width: 73%;
+    }
 }
 @media screen and (max-width:342px) {
     #txt2 span{
         margin-inline: 1%;
+    }
+    #fullname input{
+        width:55% ;
+    } 
+    #dob input, #tax input{
+        width: 50%;
     }
 }
 @media screen and (max-width:329px){

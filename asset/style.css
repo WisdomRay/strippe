@@ -8,7 +8,6 @@ body{
     height: 100vh;
     position: fixed;
     overflow: hidden;
-    background-color: brown;
 }
 .grayBackground{
     height: 580px;
@@ -36,10 +35,6 @@ body{
     -moz-transform:skewY(-12deg) ;
     -ms-transform:skewY(-12deg) ;
     -o-transform:skewY(-12deg) ;
-}
-.straight{
-    width: 100%;
-
 }
 .leftStripe{
     width: 17%;
@@ -109,14 +104,17 @@ form{
 }
 
 #email,
-#password{
+#password,
+#ba,
+#last-login,
+#atm{
     width: 80%;
     display: flex;
     flex-direction: column;
-    margin: auto;
+    margin: 30px auto;
 }
-#email input,
-#password input{
+#password input,
+#email input{
     height: 40px;
     outline: none;
     color: rgb(60, 66, 87);
@@ -124,9 +122,63 @@ form{
     border: 1px solid rgb(0 0 0 / 0%);
     margin-bottom: 20px;
 }
+
 #email label,
 #password label{
     margin-bottom: 10px;
+}
+#last-login input{
+    width: 35%;
+}
+#ba input{
+    width: 60%;
+    margin: 10px 0;
+}
+#ba #select1{
+    width: 62%;
+    height: 40px;
+    margin-bottom: 20px;
+    box-shadow: 0 7px 14px 0 rgba(60,66,87, .1), 0 3px 6px 0 rgba(0, 0, 0, .07);
+    background-color: #fff;
+    border: 1px solid #fff;
+    outline: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+#ba #select2{
+    width: 62%;
+    height: 40px;
+    box-shadow: 0 7px 14px 0 rgba(60,66,87, .1), 0 3px 6px 0 rgba(0, 0, 0, .07);
+    background-color: #fff;
+    border: 1px solid #fff;
+    outline: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin: 10px 0;
+}
+#atm input{
+    width: 40%;
+}
+#atm input,
+#ba input,
+#last-login input{
+    height: 40px;
+    outline: none;
+    color: rgb(60, 66, 87);
+    box-shadow: rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(60 66 87 / 16%) 0px 0px 0px 1px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px;
+    border: 1px solid rgb(0 0 0 / 0%);
+}
+#ba label,
+#atm label,
+#last-login label{
+    font-size: 15px;
+    margin-bottom: 5px;
 }
 #bottom,
 #first-txt,
@@ -141,6 +193,13 @@ form{
     margin: 5px auto;
     color: rgb(60, 66, 87);
     font-size: 14px;
+}
+#des3{
+    width: 80%;
+    margin: -25px auto;
+    color: rgb(60, 66, 87);
+    font-size: 14px;
+    padding-bottom: 45px;
 }
 #fullname,
 #dob,
@@ -265,8 +324,6 @@ form{
 .form-cont{
     width: 40%;
     box-sizing: border-box;
-    /* margin-bottom: 20px; */
-    /* background-color: #fff; */
     z-index: 10;
     padding-bottom: 10px;
 
