@@ -1,0 +1,226 @@
+@media screen and (max-width:992px) {
+    form, .form-cont, .img{
+        width: 50%;
+    }
+    .grayBackground{
+        top: -350px;
+    }
+    .rightStripe{
+        width: 50%;
+        height: 60px;
+        top: 50px;
+        left: calc(50% + 100px);
+    }
+    .leftStripe{
+        top: 307px;
+        width: 28%;
+        left: calc(-48% + 460px);
+
+    }
+    .mobileStripe{
+        top: 30px;
+        left: 63%;
+        height: 50px;
+        width: 20%;
+    }
+}
+@media screen and (max-width:988px){
+    .leftStripe{
+        top: 295px;
+        width: 35%;
+        left: calc(-48% + 460px);
+    }
+}
+@media screen and (max-width:968px){
+    .leftStripe{
+        top: 305px;
+        width: 40%;
+        left: calc(-55% + 460px);
+    }
+
+}
+@media screen and (max-width:959px){
+    .grayBackground{
+        top: -370px;
+    }
+    .leftStripe{
+        top: 280px;
+        left: calc(-55% + 460px);
+    }
+
+}
+@media screen and (max-width:931px){
+    .leftStripe{
+        top: 275px;
+        left: calc(-55% + 460px);
+    }
+}
+@media screen and (max-width:931px){
+    .leftStripe{
+        top: 275px;
+        left: calc(-55% + 460px);
+        height: 35px;
+    }
+}
+@media screen and (max-width:904px){
+    .mobileStripe{
+        left: 70%;
+    }
+    .leftStripe{
+        top: 270px;
+        left: calc(-55% + 460px);
+    }
+}
+@media screen and (max-width:885px){
+    .leftStripe{
+        top: 265px;
+        left: calc(-55% + 460px);
+    }
+}
+@media screen and (max-width:853px){
+    .leftStripe{
+        top: 275px;
+        left: calc(-65% + 460px);
+    }
+}
+@media screen and (max-width:817px){
+    .leftStripe{
+        top: 270px;
+
+    }
+}
+@media screen and (max-width:875px) {
+    form, .form-cont, .img{
+        width: 60%;
+    }
+}
+@media screen and (max-width:792px){
+    .leftStripe{
+        top: 265px;
+        height: 40px;
+    }
+    .form-cont{
+        background-color: #fff;
+        margin-top: -2px;
+    }
+}
+@media screen and (max-width:760px){
+    .leftStripe{
+        top: 260px;
+
+    }
+}
+@media screen and (max-width:739px){
+    .leftStripe{
+        top: 255px;
+
+    }
+}
+@media screen and (max-width:767px) {
+    form, .form-cont, .img{
+        width: 60%;
+    }
+    #first-txt,
+    #email,
+    #password,
+    #stay,
+    #bottom{
+        width: 90%;
+    }
+}
+@media screen and (max-width:716px){
+    .leftStripe{
+        top: 250px;
+        left: calc(-70% + 460px);
+    }
+}
+@media screen and (max-width:658px){
+    .leftStripe{
+        top: 250px;
+        left: calc(-80% + 460px);
+    }
+}
+@media screen and (max-width:599px){
+    .leftStripe{
+        left: calc(-90% + 460px);
+    }
+}
+@media screen and (max-width:591px) {
+    form, .form-cont, .img{
+        width: 70%;
+    }
+}
+@media screen and (max-width:546px){
+    .leftStripe{
+        left: calc(-90% + 460px);
+        top: 240px;
+    }
+    .mobileStripe{
+        left: 75%;
+    }
+}
+@media screen and (max-width:513px){
+    .leftStripe{
+        left: calc(-100% + 460px);
+        top: 240px;
+    }
+    .mobileStripe{
+        left: 65%;
+        width: 40%;
+        top: 15px;
+    }
+    .rightStripe{
+        width: 50%;
+        height: 60px;
+        top: 60px;
+        left: calc(35% + 100px);
+    }
+}
+@media screen and (max-width:485px) {
+    form, .form-cont, .img{
+        width: 80%;
+    }
+}
+@media screen and (max-width:469px){
+    .leftStripe{
+        top: 230px;
+        left: calc(-110% + 460px);
+    }
+}
+@media screen and (max-width:415px) {
+    form, .form-cont, .img{
+        width: 90%;
+    }
+    .leftStripe{
+        top: 230px;
+        left: calc(-120% + 460px);
+    }
+}
+@media screen and (max-width:385px){
+    .leftStripe{
+        top: 230px;
+        left: calc(-130% + 460px);
+    }
+    .mobileStripe{
+        width: 35%;
+        left: 80%;
+    }
+}
+@media screen and (max-width:354px){
+    .leftStripe{
+        top: 230px;
+        left: calc(-140% + 460px);
+    }
+}
+@media screen and (max-width:342px) {
+    #txt2 span{
+        margin-inline: 1%;
+    }
+}
+@media screen and (max-width:329px){
+    .leftStripe{
+        top: 220px;
+        left: calc(-145% + 460px);
+    }
+}
+

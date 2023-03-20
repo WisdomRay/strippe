@@ -1,0 +1,347 @@
+body{
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.holder{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    overflow: hidden;
+    background-color: brown;
+}
+.grayBackground{
+    height: 580px;
+    background-color: rgb(247, 250, 252);
+    position: absolute;
+    top: -150px;
+    left: 0;
+    right: 0;
+    transform:skewY(-12deg) ;
+    -webkit-transform:skewY(-12deg) ;
+    -moz-transform:skewY(-12deg) ;
+    -ms-transform:skewY(-12deg) ;
+    -o-transform:skewY(-12deg) ;
+}
+.rightStripe{
+    width: 17%;
+    height: 40px;
+    background-color: #7a73ff;
+    position: absolute;
+    top: 273px;
+    left: calc(50% + 450px);
+    z-index: 11;
+    transform:skewY(-12deg) ;
+    -webkit-transform:skewY(-12deg) ;
+    -moz-transform:skewY(-12deg) ;
+    -ms-transform:skewY(-12deg) ;
+    -o-transform:skewY(-12deg) ;
+}
+.straight{
+    width: 100%;
+
+}
+.leftStripe{
+    width: 17%;
+    height: 40px;
+    background-color: #7a73ffe8;
+    position: absolute;
+    top: 550px;
+    left: calc(-34% + 450px);
+    z-index: 11;
+    transform:skewY(-12deg) ;
+    -webkit-transform:skewY(-12deg) ;
+    -moz-transform:skewY(-12deg) ;
+    -ms-transform:skewY(-12deg) ;
+    -o-transform:skewY(-12deg) ;
+}
+.firstLeftStripe{
+    width: calc(50% - 191px);
+    background-color: #7a73ff;
+    top: 180px;
+    left: 0;
+    position: absolute;
+    z-index: 11;
+}
+.mobileStripe{
+    background-color: #80e9ff;
+    width: 13%;
+    height: 40px;
+    top: 520px;
+    left: 0;
+    z-index: 11;
+    position: absolute;
+    transform: skewY(-12deg);
+    -webkit-transform: skewY(-12deg);
+    -moz-transform: skewY(-12deg);
+    -ms-transform: skewY(-12deg);
+    -o-transform: skewY(-12deg);
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    box-sizing: border-box;
+}
+.img{
+    width: 40%;
+    margin-top: 5%;
+    z-index: 10;
+}
+.img img{
+    width: 70px;
+    height: 70px;
+
+}
+form{
+    width: 40%;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    box-shadow: 0 7px 14px 0 rgba(60,66,87, .1), 0 3px 6px 0 rgba(0, 0, 0, .07);
+    z-index: 10;
+}
+
+#email,
+#password{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+#email input,
+#password input{
+    height: 40px;
+    outline: none;
+    color: rgb(60, 66, 87);
+    box-shadow: rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(60 66 87 / 16%) 0px 0px 0px 1px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px;
+    border: 1px solid rgb(0 0 0 / 0%);
+    margin-bottom: 20px;
+}
+#email label,
+#password label{
+    margin-bottom: 10px;
+}
+#bottom,
+#first-txt,
+#stay{
+    width: 80%;
+    margin: auto;
+
+}
+#des,
+#des1{
+    width: 80%;
+    margin: 5px auto;
+    color: rgb(60, 66, 87);
+    font-size: 14px;
+}
+#fullname,
+#dob,
+#tax{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+#fullname label,
+#dob label,
+#tax label{
+    margin: 10px 0;
+    font-size: 15px;
+}
+#dob label{
+    margin-top: 20px;
+}
+
+#dob input,
+#tax input{
+    height: 30px;
+    width: 25%;
+    outline: none;
+    color: rgb(60, 66, 87);
+    box-shadow: rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(60 66 87 / 16%) 0px 0px 0px 1px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px;
+    border: 1px solid rgb(0 0 0 / 0%);
+}
+#dob input{
+    margin-bottom:20px ;
+
+}
+#fullname input{
+    height: 30px;
+    width: 30%;
+    outline: none;
+    color: rgb(60, 66, 87);
+    box-shadow: rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(60 66 87 / 16%) 0px 0px 0px 1px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px;
+    border: 1px solid rgb(0 0 0 / 0%);
+}
+#submit-button{
+    width: 80%;
+    margin:20px auto;
+    display: flex;
+
+}
+#btn1{
+    background-color: transparent;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    margin-right: 3%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    box-shadow: 0 7px 14px 0 rgba(60,66,87, .1), 0 3px 6px 0 rgba(0, 0, 0, .07);
+
+}
+#btn2{
+    background-color: rgb(99, 91, 255);
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(99, 91, 255);
+    color: #fff;
+    box-shadow: 0 7px 14px 0 rgba(60,66,87, .1), 0 3px 6px 0 rgba(0, 0, 0, .07);
+
+}
+#first-txt p{
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -.2px;
+    color: var(--sail-gray700);
+    font-family: sohne-var,sohne-woff,Helvetica Neue,Arial,sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 10px;
+    /* line-height: 32px; */
+}
+#first-txt #recover-txt1{
+    color: rgb(60, 66, 87);
+    font-size: 14px;
+    width: 90%;
+    line-height: 1.5;
+}
+#bottom button{
+    display: inline-block;
+    width: 100%;
+    height: 44px;
+    background-color: rgb(99, 91, 255);
+    box-shadow: rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 12%) 0px 1px 1px 0px, rgb(69 56 255 / 80%) 0px 0px 0px 1px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(60 66 87 / 8%) 0px 2px 5px 0px;
+    border: 1px transparent;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+#bottom a{
+    margin: auto;
+    color: rgb(84 , 105, 212);
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    padding-bottom: 50px;
+}
+#stay{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+
+}
+#stay label{
+    font-size: 14px;
+    margin-left: 3%;
+}
+
+.form-cont{
+    width: 40%;
+    box-sizing: border-box;
+    /* margin-bottom: 20px; */
+    /* background-color: #fff; */
+    z-index: 10;
+    padding-bottom: 10px;
+
+}
+.recovery-form-cont{
+    width: 40%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.recovery-form-cont li a{
+    font-size: 15px !important;
+    font-weight: 500;
+}
+#account-signup{
+    width: 90%;
+    margin: 30px auto;
+    font-size: 14px;
+
+}
+#account-signup a{
+    color: #635bff;
+    text-decoration: none;
+    margin-left: 5px;
+}
+#button-div{
+    margin: auto;
+    width: 90%;
+}
+#button1{
+    background-color: rgb(227, 232, 238);
+    color: rgb(79, 86, 107);
+    border: 1px solid #fff;
+}
+#txt1{
+    width: 90%;
+    margin:20px auto;
+    font-size: 14px;
+    color: rgb(60, 66, 87);
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Helvetica Neue","Ubuntu";;
+    font-weight: 500;
+}
+#txt2{
+    width: 90%;
+    margin: 20px auto;
+    color: rgb(60, 66, 87);
+    font-size: 14px;
+
+}
+#txt2 span{
+    margin-inline: 2%;
+    border: 1px solid #fff;
+    color: #414552;
+    padding: 5px 10px;
+    --button-background-color: var(--j5rwany-color-neutral0);
+    /*box-shadow: rgb(64 68 82 / 16%) 0px 0px 0px;*/
+    box-shadow: 0 7px 14px 0 rgba(60,66,87, .1), 0 3px 6px 0 rgba(0, 0, 0, .07);
+    border-radius:5px ;
+    -webkit-border-radius:5px ;
+    -moz-border-radius:5px ;
+    -ms-border-radius:5px ;
+    -o-border-radius:5px ;
+}
+#list-item{
+    width: 90%;
+    margin: auto;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+}
+#list-item li{
+    padding: 0;
+}
+#list-item li a{
+    text-decoration: none;
+    color: rgb(105,115,134);
+    font-size: 14px;
+    margin-right: 15px;
+}
